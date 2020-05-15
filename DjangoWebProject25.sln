@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebProject25", "DjangoWebProject25\DjangoWebProject25.pyproj", "{6B165C04-CD7B-4FB7-B5ED-9DA8D06A4CF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B165C04-CD7B-4FB7-B5ED-9DA8D06A4CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B165C04-CD7B-4FB7-B5ED-9DA8D06A4CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B165C04-CD7B-4FB7-B5ED-9DA8D06A4CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B165C04-CD7B-4FB7-B5ED-9DA8D06A4CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EB52D98-019D-4D48-BC30-9E5EA2CE1EED}
+	EndGlobalSection
+EndGlobal

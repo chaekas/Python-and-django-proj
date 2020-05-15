@@ -1,0 +1,21 @@
+﻿
+<!DOCTYPE html>
+
+{% extends "app/layout.html" %}
+{% block content %}
+    <h1>{{ title }} is working!</h1>
+    {% for obj in object_list %}
+    
+  
+    <h1><a href="{% url 'post_detail' id=obj.id%}">{{ obj.title}}</a></h1>
+ {{ obj.logo.url }}<br>
+    {{ obj.content|linebreaks|truncatechars:10 }}<br/>
+   
+    {{ obj.timestamp }}<br/>
+    {{ obj.updated }}<br/>
+   
+    {% endfor %}
+{% endblock %}
+
+
+
